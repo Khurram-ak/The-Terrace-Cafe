@@ -1,0 +1,34 @@
+#tsparticles {
+    height: 320px !important;
+}
+
+.bookingBtn {
+    height: 45px;
+    font-family: "PoppinsMed";
+    border-radius: 26px;
+    background-color: #1B1C1E;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 250px;
+    
+}
+.bookingBtn:hover{
+    background-color: #FFF;
+    color: #1B1C1E;
+    border: 4px solid #1B1C1E;
+    transition: ease-in .3s;
+
+
+}
+
+
+@media screen and (max-width:766px) {
+    .bookingTitle {
+        display: flex;
+        justify-content: center;
+        /* text-align: center !important;   */
+    }
+
+}

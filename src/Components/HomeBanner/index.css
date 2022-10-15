@@ -1,0 +1,22 @@
+.homeBanner {
+    height: 87vh;
+    background-image: url("../../assets/images/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.homeleftCol,.homerightCol {
+    height: 87vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width:767px) {
+    .homeleftCol,.homerightCol {
+        height: 40vh;
+    }
+
+}

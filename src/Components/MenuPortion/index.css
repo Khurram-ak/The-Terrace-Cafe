@@ -1,0 +1,11 @@
+#tsparticles{
+    height: 320px !important;
+}
+
+.imgZoom:hover{
+cursor: pointer;
+    transition: 0.4s ease-in-out !important;
+    transform: scale(1.2, 1.2) !important;
+
+}
+ 

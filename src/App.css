@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: Ephesis;
+  src: url(./assets/fonts/Ephesis-Regular.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: PoppinsBold;
+  src: url(./assets/fonts/Poppins-Bold.ttf);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: PoppinsMed;
+  src: url(./assets/fonts/Poppins-Medium.ttf);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@font-face {
+  font-family: PoppinsLight;
+  src: url(./assets/fonts/Poppins-Light.ttf);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 20px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #c9c9c9;
+  margin-top: 00px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 0, 0);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(8, 11, 54);
+}
+
+.orderBtn {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 60px;
+  width: 180px !important;
+  padding: 10px 20px;
+  background-color: #48C857;
+  color: #FFF;
+  border-radius: 40px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  border: none !important;
+}
+.orderRow{
+  display: flex !important;
+  align-items: center;
+  font-family: PoppinsMed;
+
+  justify-content: center !important;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+.orderBtn:hover{
+
+  transition: ease-in-out .3s;
+  transform: translateY(-1vw) !important;
+
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+

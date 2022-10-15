@@ -1,0 +1,11 @@
+.Splash{
+    background: rgb(15,16,17);
+    background: linear-gradient(90deg, rgba(15,16,17,1) 18%, rgba(4,9,36,1) 50%, rgba(0,8,23,1) 77%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}

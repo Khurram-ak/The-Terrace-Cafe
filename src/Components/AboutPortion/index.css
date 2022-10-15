@@ -1,0 +1,38 @@
+#tsparticles {
+    height: 320px !important;
+}
+
+.aboutCont {
+    margin: auto;
+    display: flex;
+    align-items: center !important;
+    background-color: white;
+    padding: 50px 0px;
+    width: 80%;
+}
+.aboutLeftCont{
+    margin:auto;
+    font-family:PoppinsMed;
+    font-size:20px;
+    display: flex;
+    align-items: center;
+}
+
+.aboutRightCont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width:766px) {
+    .aboutLeftCont{
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+
+}
+@media screen and (max-width:300px) {
+   #aboutTitle{
+    font-size: 25px !important;
+   }
+}
